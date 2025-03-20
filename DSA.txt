@@ -1,0 +1,68 @@
+Data Strucutres using java:
+Data Structure:
+are different ways of organizing data on your computer ,that can be used efficienlty.
+example:selecting the black wood in the bundles of woods ...it will be difficult and time consuming to find if the woods are not arranged 
+properly.if the woods are arranged it will be easy to find the wood in less time..
+
+Algorithm:
+set of instructions to perform the task is known algorithm
+for example: if want to go to office ..we need to go through certain steps..like wakeup ,take the bus,travel,reach the 
+office ,walk to go to cabbin.
+
+why data structures and algorithms are important:
+by using the data structures we can organize the data and by using this data we can perform the task is nothing but algorithm.
+
+most companies use dsa ..because as modern applications deals with large amount of data..so inorder to maintain the data we need DSA 
+
+Types of data structures:
+there are 2 types of data strctures :
+primitive data type:which are defined in built in programming language
+integer
+float 
+char
+boolean
+
+Non-primitove data strcture:which are defined by a programmer.it is defined by using 1 or more primitve data types
+ 
+Linear:
+	 static:array
+	 dynamic:linkedlist ,queue,stack
+Non-linear:
+	tree,graph
+
+types if algorithm:
+simple recursive algorithm -when we are dealing with the loops
+divide and conquer algorithm
+Dynamic programming algorithm
+greedy algorithm
+brute force algorithms
+Randamized algorithms
+
+Big O :is the language to describe the performance or time taken by the  algorithm to perform task 
+
+O(1): Constant time complexity, where the execution time remains the same regardless of input size.
+O(n): Linear time complexity, where the execution time grows linearly with the input size.
+O(n^2): Quadratic time complexity, where the execution time grows proportionally to the square of the input size.
+O(log n): Logarithmic time complexity, where the execution time grows logarithmically with the input size.
+O(n log n): Linearithmic time complexity, often seen in efficient sorting algorithms like Merge Sort and Quick Sort.
+will drop constants .as we mainly focus on the dominat term ..which makes it easier for comparision between different algortihms
+
+there are three cases we can measure the algorithm based on the conditions:
+best case-it is described by omega
+average case-it is described big hitter
+worst case -it is described as big O
+
+Array:it is a data structure ,consiting of collection of similar type of data .it is fixed in size .we cannot change the size of an array.we can access the data by its index.
+the elements will be stored next to each other.the index for the arrays always starts with zero .
+
+diiferent types of arrays:
+one dimensional array:single row with multiple columns is known as multidimensional array
+multi-dimensional array:
+2-D array:bunch of values declared with double index(row index,column index)
+3-D array:bunch of values declard with 3 indexes(depth index,row index,column index)
+
+in both arrays data is stored next each other in memory
+
+Create an array:
+Declare:when we declare an array ,in memory the reference will be created in memory ..
+Instantiation:create an array,by default values will be stored and first index value will be stored in the reference variable
